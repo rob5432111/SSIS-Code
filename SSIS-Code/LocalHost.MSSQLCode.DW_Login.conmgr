@@ -1,0 +1,16 @@
+﻿<?xml version="1.0"?>
+<DTS:ConnectionManager xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:ObjectName="LocalHost.MSSQLCode.DW_Login"
+  DTS:DTSID="{CB2B5D76-BDD7-496D-AA4F-A3080D5BF764}"
+  DTS:CreationName="OLEDB">
+  <DTS:ObjectData>
+    <DTS:ConnectionManager
+      DTS:ConnectRetryCount="1"
+      DTS:ConnectRetryInterval="5"
+      DTS:ConnectionString="Data Source=.;User ID=DW_Login;Initial Catalog=MSSQLCode;Provider=SQLNCLI11.1;Persist Security Info=True;Auto Translate=False;">
+      <DTS:Password
+        DTS:Name="Password"
+        Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAATarX9+CUjkKs/7OeWHdoJgAAAAACAAAAAAAQZgAAAAEAACAAAABNs70g0HNJ7Lo1j1WcOd4SLSvKAR4f2AxzdhbR7wGHogAAAAAOgAAAAAIAACAAAACgI4TbN9D3zMuA+y54zZOO6+LmJCFrFmFMkwmok7+Z04AAAABMGrnKR+mzJ/u++o9x7EdG0D2DsQe34LxXFDKqu/4HI4+MPa1TpeJ/BLyzfoWyVUHJb7+MofLkWqTD6KG3rZPiD58NKAoJstYwWmtOR+7Yyu6qm4urVsvD+8JjWQDZvfvOypXd1gqD/7XwJBOOww0uJsZvTTdKP5yHg5XF/1yZAUAAAADzSpMxNoQBhGmWgpW8CbAYMiAFlCDSYDE3GtCSr3KbGNrMM4hV4sXMY9N820gtBAIFtid5AAiYQwbXgI0ACZ9Y</DTS:Password>
+    </DTS:ConnectionManager>
+  </DTS:ObjectData>
+</DTS:ConnectionManager>
